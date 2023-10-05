@@ -1,0 +1,56 @@
+* {
+    font-family: "Berlin Sans FB";
+    text-transform: capitalize;
+}
+.mask{
+    -webkit-mask-image: url("/assets/img/user/qa.png");
+    mask-image: url("/assets/img/user/qa.png");
+    mask-repeat:repeat;
+    -webkit-mask-repeat: repeat;
+    position: absolute;
+    z-index: 1;
+
+}
+.container{
+    position: absolute;
+    z-index: 2;
+    top:30%;
+    /*width: 500px;*/
+    margin-left: 25%;
+}
+.card{
+    background-color: #e0f8f2d8;
+
+}
+.card-body{
+    background-color: transparent;
+}
+#hello{
+    margin-top: 25px;
+}
+#smile{
+    position: relative;
+    left:20%;
+}
+#smile img{
+    width:220px;
+    height:100px;
+}
+#but2{
+    margin-left: 500px;
+    margin-top: 10px;
+    background-color: #FF6D2C;
+    box-shadow: 5px 5px  #2E2F35;
+    border-color: #222222;
+    border-radius:10px ;
+    -webkit-border-radius:10px ;
+    -moz-border-radius:10px ;
+    -ms-border-radius:10px ;
+    -o-border-radius:10px ;
+    color: white;
+}
+#but2 a{
+text-decoration: none;
+    color: white;
+}
+
